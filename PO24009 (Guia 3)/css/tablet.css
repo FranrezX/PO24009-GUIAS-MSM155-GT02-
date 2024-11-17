@@ -1,0 +1,26 @@
+@media  (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-color: #D5D8DC;
+        color: #4A4A4A;
+    }
+
+    #tablero {
+        height: 560px;
+        width: 560px;
+    }
+
+    #tablero p {
+        font-size: 44px;
+        background-color: #F5E1A4; 
+        color: #FF6F61;
+        height: 70px;
+        width: 70px;
+    }
+    #tablero .filaImpar p:nth-child(2n+1){ 
+        background-color: #2C3E50; 
+    }
+    
+    #tablero .filaPar p:nth-child(2n) {
+        background-color: #2C3E50;
+    }
+}
